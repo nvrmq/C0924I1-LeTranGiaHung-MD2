@@ -6,7 +6,7 @@ public class money {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Amount of Dollars");
-        double dollar = sc.nextInt();
+        double dollar = sc.nextDouble();
         if(dollar < 0){
             System.out.println("Invalid");
         } else {
