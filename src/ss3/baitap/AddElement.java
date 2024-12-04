@@ -17,8 +17,10 @@ public class AddElement {
         int addedInt = sc.nextInt();
         System.out.println("------Position(Index)-----");
         int position = sc.nextInt();
-        if (addedInt < 0 || addedInt > arr.length) {
+        while (position < 0 || position > arr.length) {
             System.out.println("Invalid position");
+            System.out.println("----Try again----");
+            position = sc.nextInt();
         }
         int[] newArr = new int[arr.length + 1];
         for (int i = 0; i < position; i++) {
