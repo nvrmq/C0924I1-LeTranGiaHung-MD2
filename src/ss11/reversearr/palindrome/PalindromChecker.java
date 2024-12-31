@@ -7,7 +7,7 @@ import java.util.Stack;
 public class PalindromChecker {
     public String isPalindrome(String str) {
         Stack<Character> stack = new Stack<>();
-        Queue<Character> queue = new LinkedList<>();
+        Queue<Character> queue = new LinkedListggit<>();
 
         for (int i = 0; i < str.length(); i++) {
             char c = str.charAt(i);
